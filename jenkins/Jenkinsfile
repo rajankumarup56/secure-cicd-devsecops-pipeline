@@ -1,0 +1,29 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building application'
+            }
+        }
+
+        stage('Docker Build') {
+            steps {
+                echo 'Building Docker image'
+            }
+        }
+
+        stage('Security Scan') {
+            steps {
+                echo 'Running basic security checks'
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                echo 'Deploying application securely'
+            }
+        }
+    }
+}

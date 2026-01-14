@@ -1,0 +1,20 @@
+name: DevSecOps Pipeline
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Build Docker image
+      run: echo "Docker build step"
+
+    - name: Security Scan
+      run: echo "Running vulnerability scan"
+
+    - name: Deploy
+      run: echo "Deploying application securely"
