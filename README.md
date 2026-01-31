@@ -1,3 +1,7 @@
+> ⚠️ NOTE  
+> This repository represents earlier experimentation and learning.
+> My current production-focused DevOps and AWS projects are pinned on my GitHub profile.
+
 # Secure CI/CD Pipeline with DevSecOps Practices
 
 This project demonstrates the implementation of a secure CI/CD pipeline by
