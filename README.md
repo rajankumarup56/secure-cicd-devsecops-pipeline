@@ -1,24 +1,41 @@
-> ⚠️ NOTE  
-> This repository represents earlier experimentation and learning.
-> My current production-focused DevOps and AWS projects are pinned on my GitHub profile.
+# Secure CI/CD DevSecOps Pipeline
 
-# Secure CI/CD Pipeline with DevSecOps Practices
+🔹 Built a CI/CD pipeline integrating security checks for secure application deployment.
 
-This project demonstrates the implementation of a secure CI/CD pipeline by
-integrating security practices across the DevOps lifecycle.
+---
+
+## Workflow
+
+1. Code pushed to GitHub
+2. CI pipeline builds application
+3. Security scans are performed
+4. Application is deployed
+
+---
 
 ## Tools Used
-- Jenkins
-- GitHub Actions
-- Docker
-- AWS
 
-## Focus Areas
-- Secure CI/CD automation
-- Vulnerability scanning
-- Role-based access control
-- Secure cloud deployment
+* GitHub
+* CI/CD Concepts
+* Bash Scripting
 
-## Outcome
-Gained hands-on experience in DevSecOps practices and secure software delivery
-using modern CI/CD tools.
+---
+
+## Screenshots
+
+## Pipeline Execution
+
+![Pipeline](screenshots/pipeline.png)
+
+---
+
+## Related Project
+
+Cloud Security Monitoring on AWS
+https://github.com/rajankumarup56/cloud-security-monitoring-aws
+
+---
+
+## Author
+
+Ranjan Kumar Upadhyay
